@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      quicksand: ["Quicksand", "sans-serif"],
+      norican: ["Norican", "cursive"],
+      oswald: ["Oswald", "sans-serif"],
+      roboto: ["Roboto", "sans-serif"],
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };
