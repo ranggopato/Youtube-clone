@@ -4,9 +4,14 @@ import Videopage from "../components/VideoPage";
 import { useRouter } from "next/router";
 
 export default function Home() {
+  let object;
   const router = useRouter();
   const query = router.query;
-  const object = JSON.parse(query.object);
+  if (typeof query !== "undefined") {
+    object = JSON.parse(query.object);
+  } else {
+    object = "indonesia";
+  }
 
   return (
     <div className="">
