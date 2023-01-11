@@ -7,9 +7,7 @@ export default function Home() {
   let object = "";
   const router = useRouter();
   const query = router.query;
-  useEffect(() => {
-    console.log(query);
-  }, []);
+
   if (typeof query !== undefined) {
     object = JSON.parse(query.object);
   }
