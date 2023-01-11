@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import Videopage from "../components/Videopage";
+import Videopage from "../components/VideoPage";
 import { useRouter } from "next/router";
 
 export default function Home() {
