@@ -5,13 +5,13 @@ import useVideos from "../hooks/useVideos";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 
-const Videopage = ({ video }) => {
+const Videopage = () => {
   const a = "indonesia";
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [videos, search] = useVideos(a);
 
   useEffect(() => {
-    setSelectedVideo(video);
+    setSelectedVideo(a);
   }, [videos]);
 
   return (
