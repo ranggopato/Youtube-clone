@@ -43,7 +43,7 @@ const Navbar = ({ onFormSubmit }) => {
   };
   return (
     <div className="fixed left-0 top-0 w-full h-16 bg-white z-[100] ease-in-out duration-300">
-      <div className="flex justify-between items-center w-full h-full  2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full  ">
         <div className=" flex items-center space-x-2 px-[1.2rem] ">
           <AiOutlineMenu onClick={handleNav} className="text-base" />
           <Link href="/" className="flex items-center">
