@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
+
 import Homepage from "../components/Homepage";
 
-import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 
 export default function Home() {

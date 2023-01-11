@@ -19,7 +19,7 @@ import {
 } from "react-icons/bs";
 import { TbDotsVertical } from "react-icons/tb";
 import { CgProfile, CgGames } from "react-icons/cg";
-import { GrHomeRounded, GrHistory } from "react-icons/Gr";
+import { GrHomeRounded, GrHistory } from "react-icons/gr";
 import { BsCollectionPlay, BsPlayCircle } from "react-icons/bs";
 import {
   MdOutlineVideoLibrary,
