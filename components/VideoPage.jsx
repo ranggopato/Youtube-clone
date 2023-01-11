@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import useVideos from "../hooks/useVideos";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
-import Test from "./test";
+
 const Videopage = ({ video }) => {
   const a = "indonesia";
   const [selectedVideo, setSelectedVideo] = useState(null);
