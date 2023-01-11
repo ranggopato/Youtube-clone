@@ -8,7 +8,7 @@ export default function Home() {
   const router = useRouter();
   const query = router.query;
 
-  if (typeof query.object !== undefined) {
+  if (typeof query.object !== "undefined") {
     object = JSON.parse(query.object);
   }
 
